@@ -1,6 +1,6 @@
 import './globals.css';
 import Script from 'next/script';
-import { AuthProvider } from '@/contexts/AuthContext';
+import { AuthProvider } from '../contexts/AuthContext';
 
 export default function RootLayout({
   children,
